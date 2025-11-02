@@ -13,5 +13,8 @@ git commit -m "<msg>"					# Commited staged changes w/ msg
 git checkout -b <branch>				# Creates and Checkout new Branch
 git checkout <branchName>				# Checkout existing branch
 
+git status								# Shows helpful details
+git log									# List of Commits
+
 git merge <remoteName> <branchName>		
 ```
