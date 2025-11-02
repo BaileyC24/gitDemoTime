@@ -16,5 +16,13 @@ git checkout <branchName>				# Checkout existing branch
 git status								# Shows helpful details
 git log									# List of Commits
 
-git merge <remoteName> <branchName>		
+git merge <branchName>		
+
+git tag -a '<version>' -m '<msg>'
+
+git push <remoteName> <branchName>
+git push <remoteName> --tags
+
+git pull <remoteName>
+git fetch <remoteName>
 ```
